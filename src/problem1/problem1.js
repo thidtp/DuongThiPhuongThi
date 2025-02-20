@@ -15,7 +15,7 @@ var sum_to_n_b = function(n) {
     // your code here
     return (n*(n+1))/2;
 };
-//Solution w :
+//Solution 3:
 var sum_to_n_c = function(n) {
     // your code here
     if(n===1)
