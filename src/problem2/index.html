@@ -11,15 +11,17 @@
 <body>
 
   <!-- You may reorganise the whole HTML, as long as your form achieves the same effect. -->
-  <form onsubmit="return !1">
+  <form id="swap-form" onsubmit="return !1">
     <h5>Swap</h5>
     <label for="input-amount">Amount to send</label>
-    <input id="input-amount" />
+    <input id="input-amount" type="number" placeholder="Enter amount" />
 
     <label for="output-amount">Amount to receive</label>
-    <input id="output-amount" />
+    <input id="output-amount" type="number" placeholder="Calculated amount" readonly />
 
     <button>CONFIRM SWAP</button>
+    <div id="loading" class="hidden" >Loading...</div>
+
   </form>
   <script src="script.js"></script>
 </body>

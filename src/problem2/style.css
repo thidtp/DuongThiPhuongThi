@@ -6,3 +6,32 @@ body {
   min-width: 360px;
   font-family: Arial, Helvetica, sans-serif;
 }
+form{
+  background: #001C44;
+  color: #F8DAD0;
+  padding: 20px;
+  border-radius: 20px;
+  width: 700px;
+}
+input{
+  width: 100%;
+  padding: 8px;
+  margin-bottom: 10px;
+  border-radius: 10px;
+}
+button{
+  width: 100%;
+  padding: 8px;
+  cursor: pointer;
+  background: #2D99AE;
+  color: white;
+  border: none;
+  border-radius: 10px;
+  transition: background-color 0.3s ease;
+}
+button:hover {
+  background: #0C5776;
+}
+.hidden{
+  display: none;
+}
