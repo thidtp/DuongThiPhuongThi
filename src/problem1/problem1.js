@@ -1,6 +1,5 @@
 // Problem 1 : Three ways to sum to n 
-
-//Solution 1 :
+//Solution 1:
 var sum_to_n_a = function(n) {
     // your code here
     let sum = 0;
